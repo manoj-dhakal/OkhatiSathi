@@ -116,7 +116,7 @@ medicine_list = ['Aluminium hydroxide', 'Magnesium hydroxide', 'Atropine sulphat
 extract_medicine_data(pdf_file, output_json_file, pages_to_extract)
 
 
-print(f"✅ Extraction complete! Data saved to {output_json_file}")
+print(f"Extraction complete! Data saved to {output_json_file}")
 print("Initial medicines number = ", len(medicine_list))
 
 
@@ -129,6 +129,6 @@ with open(output_json, "r", encoding="utf-8") as file:
 
 
 # Count the number of dictionaries (medicine entries)
-print(f"✅ Total medicine entries: {len(data)}")
+print(f"Total medicine entries: {len(data)}")
 
 
